@@ -1,0 +1,383 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        1.0000001192092896,
+        0.51397049427032471,
+        0.38874176144599915
+      ],
+      "min": [
+        -1,
+        -0.51397049427032471,
+        -0.38874176144599915
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 162480,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        0.99980998039245605,
+        0.99990189075469971,
+        0.99992412328720093
+      ],
+      "min": [
+        -0.99996989965438843,
+        -1,
+        -0.99999487400054932
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        0.99922668933868408,
+        0.99998092651367188,
+        0.9999997615814209,
+        -1
+      ],
+      "min": [
+        -0.99987292289733887,
+        -0.99970567226409912,
+        -0.99999111890792847,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        0.99804699420928955,
+        0.99804699420928955
+      ],
+      "min": [
+        0.0019529999699443579,
+        0.035203993320465088
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 108320,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        0.99804699420928955,
+        0.99804699420928955
+      ],
+      "min": [
+        0.0019529999699443579,
+        0.035203993320465088
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 216640,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        0.99804699420928955,
+        0.99804699420928955
+      ],
+      "min": [
+        0.0019529999699443579,
+        0.035203993320465088
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 324960,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        0.99804699420928955,
+        0.99804699420928955
+      ],
+      "min": [
+        0.0019529999699443579,
+        0.035203993320465088
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 433280,
+      "componentType": 5126,
+      "count": 13540,
+      "max": [
+        0.99804699420928955,
+        0.99804699420928955
+      ],
+      "min": [
+        0.0019529999699443579,
+        0.035203993320465088
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 68100,
+      "max": [
+        13539
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "bluoppVR (https://sketchfab.com/bluoppVR)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/tennis-shoe-1d6ed7309a3d4c43bd1e262628f198ff",
+      "title": "Tennis Shoe"
+    },
+    "generator": "Sketchfab-10.27.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 272400,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 541600,
+      "byteOffset": 272400,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324960,
+      "byteOffset": 814000,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 216640,
+      "byteOffset": 1138960,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1355600,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/phong1SG_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/phong1SG_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/phong1SG_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "phong1SG",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.49420407493205409,
+          0.49420407493205409,
+          0.49420407493205409,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.99885844748858454,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6,
+            "TEXCOORD_4": 7
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.14893949031829834,
+        0,
+        0,
+        0,
+        0,
+        0.14893949031829834,
+        0,
+        0,
+        0,
+        0,
+        0.14893949031829834,
+        0,
+        0.001610487699508667,
+        0.075902506709098816,
+        0.0048509985208511353,
+        1
+      ],
+      "name": "Shoeobj_2"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "g_Shoe_1"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Shoe_0"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+

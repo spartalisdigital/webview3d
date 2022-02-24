@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title> Jordan </title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-orbit-controls@1.2.0/dist/aframe-orbit-controls.min.js"></script>
+
+  </head>
+  <body>
+
+    <a-scene stats shadow="type: pcfsoft">
+
+        <a-assets>
+            <a-asset-item id="modelo" src="assets/tennis_shoe/scene.gltf"></a-asset-item>
+          </a-assets>
+         
+        <a-entity gltf-model="#modelo" position="0 0 0" scale="5 5 5" shadow="receive: false"></a-entity>
+        <a-entity light="type:directional; castShadow:true;" position="0 3 0"></a-entity>
+        <a-entity light="type: ambient; castShadow:true;" position="0 3 0"></a-entity>
+
+
+        <a-entity camera look-controls orbit-controls="target: 0 0 0; minDistance: 0.5; maxDistance: 360; initialPosition: 0 1.5 3"></a-entity>
+  
+    </a-scene>
+
+  </body>
+</html>
